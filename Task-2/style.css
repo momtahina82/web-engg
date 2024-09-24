@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+/* Navbar */
+.eng {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    background-color: #333;
+    color: white;
+    height: 10px;
+}
+
+.eng .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.eng nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.eng nav ul li {
+    display: inline;
+}
+
+.eng nav ul li a {
+    color: #f9f9f9;;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #666;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+
+.head {
+    text-align: center;
+    padding: 50px;
+    background: #8cc629;
+    color: white;
+}
+
+.head h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.head p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.head button {
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    border: none;
+    
+}
+
+.head button:hover {
+    background-color: #f9f9f9;;
+}
+
+.coll {
+    padding: 40px 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right:100px ;
+}
+
+.coll h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.coll p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.coll-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    box-shadow: none;
+    text-align: center;
+}
+
+.card .img {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+
+.bottomcards {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #8cc629;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+   
+
+}
+
+.bottomcard {
+    text-align: center;
+    width: 30%;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+
+.bottomcard img {
+    
+   border-radius: 50%;
+    
+}
+
+
+.bottomcard button {
+    padding: 8px 16px;
+    background-color:white;;
+    color: rgb(15, 12, 12);
+    border: none;
+}
+
+.bottomcard button:hover {
+    background-color: #55bb55;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    margin-top: 0px;
+}
