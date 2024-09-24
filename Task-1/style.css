@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    
+}
+.head{
+    height: 20vh;
+    width: 100%;
+    background: #9acd32;
+}
+h2{
+    padding: 15px;
+}
+.mid{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+}
+.nav{
+    width: 51vh;
+    background: #f5f5db;
+}
+.article{
+    background: white;
+    width: 105vh;
+}
+.aside{
+    position: right;
+    width: 51vh;
+    background: #f5f5db;
+}
